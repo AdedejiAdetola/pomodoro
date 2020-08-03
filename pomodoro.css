@@ -1,0 +1,57 @@
+body
+{
+    background-color:rgb(245, 241, 17);
+    font-size: large;
+}
+
+.heads 
+{
+    margin:auto;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    
+}
+
+#absolute
+{
+    
+    
+    margin:auto;
+    width:50%;
+    display:block;
+    background-color:rgb(226, 81, 81);
+    padding:40px;
+    
+    
+    
+    
+}
+
+#work
+{
+
+ float:left;
+ width: 33%;
+ text-align: center;
+}
+
+#cycle
+{
+    
+    float:right;
+    width: 33%;
+    text-align: center;
+}
+
+#break
+{
+    
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 768px){
+   body {width:100%;}
+    
+}
